@@ -1,0 +1,102 @@
+.category-container {
+  margin: 4.4rem;
+}
+
+.heading {
+  display: flex;
+  justify-content: center;
+}
+
+span {
+  color: rgb(255, 41, 76);
+}
+
+.heading h1 {
+  font-size: 2rem;
+  font-weight: 900;
+}
+
+.categories button {
+  display: flex;
+  flex-direction: row;
+  background: white;
+  border-radius: 8px;
+  color: rgb(255, 41, 76);
+  letter-spacing: 0.1rem;
+  border-color: white;
+  padding: 0 5.5rem;
+  padding-top: 0.5rem;
+  fill: rgb(255, 41, 76);
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.categories button:hover {
+  background: rgb(255, 41, 76);
+  border-color: rgb(255, 41, 76);
+  fill: white;
+  color: white;
+
+}
+
+svg {
+  width: 2rem;
+  height: 2rem;
+  padding-right: 1rem;
+}
+
+.categories {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  margin-top: 2rem;
+}
+
+/* Food Items */
+.food-items {
+  background-color: white;
+  width: 12rem;
+  height: 25rem;
+  margin-top: 3rem;
+  border-radius: 8px;
+  padding: 1.5rem 3rem;
+  margin-left: 1rem;
+}
+
+.food-items img {
+  width: 12rem;
+  height: 10rem;
+  border-radius: 50%;
+  padding-bottom: 2rem;
+}
+
+.food-items h3 {
+  padding-top: 1rem;
+  font-weight: 500;
+}
+
+.foodcontent {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cart-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(255, 41, 76);
+  color: white;
+  width: fit-content;
+}
+
+.cart-button:hover {
+  background: #ff0000;
+}
+
+/* Food items */
+.food-items-container {
+  display: flex;
+}

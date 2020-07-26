@@ -1,0 +1,58 @@
+#navbar button {
+  background: rgb(17, 209, 151);
+  border-radius: 12px;
+  letter-spacing: 0.1rem;
+  margin: 0 3rem;
+  padding: 0.2rem 2rem;
+}
+
+#navbar button a {
+  color: rgb(255, 255, 255);
+  font-weight: 900;
+
+}
+
+
+#navbar button:hover {
+  background: rgb(0, 255, 149);
+  box-shadow: 1px 1px 4px 6px #13bb0d27;
+  font-weight: 900;
+}
+
+img {
+  width: 8rem;
+  height: 8rem;
+  margin: 0 4rem;
+  cursor: pointer;
+}
+
+#navbar {
+  display: flex;
+  top: 0;
+  color: black;
+  justify-content: space-between;
+  z-index: 1;
+
+}
+
+#navbar ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+.atag {
+  color: black;
+  padding: 1rem;
+  margin: 0 2rem;
+  letter-spacing: 0.1rem;
+
+}
+
+.atag:hover {
+  background: #ffffff;
+  border-radius: 2rem;
+  font-weight: 900;
+  color: rgb(255, 73, 103);
+  list-style: none;
+}

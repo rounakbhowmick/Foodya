@@ -1,0 +1,14 @@
+<div class="facility-container">
+  <div class="delivery-image"><img src="assets/deliveryedited.jpeg" alt=""></div>
+  <div class="content">
+    <h1><span>Sit </span>at Home <br> We Will <span>Take Care</span></h1>
+    <p>You just order your favourite food and rest at your place we will delivery it in time.No delay no time lose and
+      no frustation.Chill and relax and enjoy the food at time. </p>
+    <div class="facilities">
+      <div class="feature" *ngFor="let feature of facilities">
+        <svg-icon [src]="feature.svgUrl"></svg-icon>
+        <h3>{{feature.name}}</h3>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,64 @@
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+.contact-container {
+  background-color: rgb(255, 251, 251);
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+}
+
+img {
+  width: 100%;
+}
+
+.box-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.img {
+  width: 50%;
+}
+
+.content {
+  width: 50%;
+  line-height: 2rem;
+  margin: 0rem 3rem;
+}
+
+h1 {
+  padding-top: 8rem;
+  font-size: 4rem;
+  letter-spacing: 0.3rem;
+}
+
+form {
+  width: 60%;
+  padding-top: 2rem;
+}
+
+.btn {
+  background-color: rgb(250, 0, 42);
+  color: white;
+  letter-spacing: 0.1rem;
+  font-weight: 500;
+  margin-top: 1rem;
+  padding: 0.8rem 3rem;
+  border-radius: 2rem;
+}
+
+input[type="text"] {
+  padding: 1.5rem;
+}
+
+input.ng-invalid.ng-touched {
+  border: 1px solid red;
+}
+
+input.ng-valid {
+  border: 2px solid green;
+}
+
+span {
+  color: grey;
+}

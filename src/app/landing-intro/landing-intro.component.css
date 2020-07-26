@@ -1,0 +1,48 @@
+#landing-container {
+  display: flex;
+  justify-content: space-around;
+  margin: 2rem 4rem;
+}
+
+h1 {
+  font-size: 3.7rem;
+  line-height: 5rem;
+  font-weight: 900;
+  color: black;
+  letter-spacing: 0.2rem;
+}
+
+span {
+  color: rgb(255, 41, 76);
+}
+
+p {
+  padding: 2rem 0;
+  font-size: 1.2rem;
+  letter-spacing: 0.1rem;
+  line-height: 1.6rem;
+}
+
+#landing-container img {
+  width: 35rem;
+  height: 32rem;
+  border-radius: 25%;
+  padding-left: 2rem;
+}
+
+button {
+  background: rgb(255, 41, 76);
+  border-radius: 12px;
+  color: white;
+  letter-spacing: 0.1rem;
+
+  padding: 0.2rem 2rem;
+  font-size: 1.2rem;
+}
+
+button:hover {
+  background: rgb(9, 128, 98);
+  box-shadow: 1px 1px 4px 6px #13bb0d27;
+  font-weight: 900;
+  font-size: 1.5rem;
+}

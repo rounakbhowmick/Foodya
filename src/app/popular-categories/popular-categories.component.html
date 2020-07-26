@@ -1,0 +1,38 @@
+<!-- Button -->
+
+<div class="category-container">
+  <div class="heading">
+    <h1>Our Popular <span>Categories</span></h1>
+  </div>
+  <div class="categories">
+    <div *ngFor="let item of items">
+      <button (click)="onSelect(item)">
+        <!-- <svg-icon src="assets/biryani.svg"></svg-icon> -->
+        <svg-icon [src]="item.svgUrl"></svg-icon>
+        <h2>{{item.name }}</h2>
+      </button>
+    </div>
+  </div>
+  <div class="food-items-container">
+    <div class="food-items" *ngFor="let item of filtereditems">
+      <div>
+        <img [src]="item.imgUrl" alt="">
+
+        <div class="foodcontent">
+          <div>
+            <svg-icon *ngFor="let star of stars" [src]="star.svg"></svg-icon>
+          </div>
+          <!-- <svg-icon src="assets/star.svg"></svg-icon> -->
+          <h3>{{item.itemName}}</h3>
+          <p>{{item.rate| currency:"&#8377;"}}</p>
+          <div class="cart-button">
+            <button mat-button>Add to Cart</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+
+</div>

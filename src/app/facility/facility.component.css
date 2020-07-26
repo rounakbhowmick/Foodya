@@ -1,0 +1,60 @@
+.facility-container {
+  display: flex;
+  margin: 5rem;
+}
+
+.delivery-image IMG {
+  border-radius: 50%;
+  width: 35rem;
+  height: 35rem;
+  padding-right: 4rem;
+}
+
+.content {
+  margin-top: 4rem;
+}
+
+h1 {
+  font-size: 3.7rem;
+  line-height: 4.5rem;
+  letter-spacing: 0.1rem;
+  font-weight: 900;
+  color: black;
+}
+
+span {
+  color: rgb(255, 41, 76);
+}
+
+p {
+  font-size: 1rem;
+  line-height: 2rem;
+  letter-spacing: 0.1rem;
+}
+
+/***********Facilities ************/
+.facilities {
+  margin-top: 4rem;
+  display: flex;
+}
+
+svg {
+
+  width: 2rem;
+  height: 2rem;
+  fill: rgb(255, 41, 76);
+}
+
+.feature {
+  width: 7rem;
+  padding: 0.7rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+h3 {
+  color: rgb(255, 41, 76);
+  font-weight: bold;
+}
