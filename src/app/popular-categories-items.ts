@@ -7,7 +7,7 @@ export const POPULARITEMS: FoodItems[] = [
         type: 'Biryani'
     },
     {
-        imgUrl: "assets/muttonbiryani.jpeg",
+        imgUrl: "assets/muttonbiryani.jpg",
         itemName: 'Mutton Biryani',
         rate: 220,
         type: 'Biryani'
